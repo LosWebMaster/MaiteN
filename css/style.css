@@ -1,0 +1,30 @@
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  position: sticky;
+  top: 20px;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+}
+li {
+  text-decoration: none;
+}
+li a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
