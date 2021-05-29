@@ -2,9 +2,30 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 0.3fr 0.7fr;
+  grid-template-rows: 1fr;
+  background-color: greenyellow;
+  margin: 0;
+}
+
 .logo {
-  width: 100px;
+  width: 75px;
   height: auto;
+  justify-self: center;
+}
+
+.navbar {
+  align-self: center;
 }
 
 ul {
@@ -14,9 +35,11 @@ ul {
 li {
   font-family: "Roboto", sans-serif;
   display: inline-block;
-  width: 10%;
   position: relative;
   font-size: 18px;
+  justify-self: center;
+  align-self: center;
+  padding: 30px;
 }
 ul ul {
   position: absolute;
@@ -24,7 +47,19 @@ ul ul {
 }
 ul ul li {
   display: block;
+  width: 100px;
+  font-size: 16px;
 }
 ul li:hover ul {
   display: block;
+}
+
+/* Main */
+
+.main_div1 {
+  background-image: url("../imagenes/img-ppal.jpg");
+  background-size: cover;
+  opacity: 0.75;
+  height: 750px;
+  width: auto;
 }
