@@ -4,21 +4,34 @@ html {
 
 body {
   margin: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../imagenes/back-body.jpg");
+  display: block;
 }
 
 a {
   text-decoration: none;
 }
 
+/* HEADER */
+
 .header {
   display: grid;
   grid-template-columns: 0.3fr 0.7fr;
   grid-template-rows: 1fr;
-  background-color: greenyellow;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(204, 25, 22, 0.958420868347339) 71%
+  );
   margin: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
-.logo {
+.header_logo {
   width: 75px;
   height: auto;
   justify-self: center;
@@ -36,7 +49,7 @@ li {
   font-family: "Roboto", sans-serif;
   display: inline-block;
   position: relative;
-  font-size: 18px;
+  font-size: 22px;
   justify-self: center;
   align-self: center;
   padding: 30px;
@@ -49,19 +62,59 @@ ul ul li {
   display: block;
   width: 100px;
   font-size: 16px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(204, 141, 22, 0.958420868347339) 71%
+  );
+}
+ul ul li a {
+  color: white;
+  font-weight: bold;
+  text-shadow: white 2px;
 }
 ul li:hover ul {
   display: block;
+}
+ul li a {
+  font-weight: bold;
+  color: white;
+  text-shadow: black 3px;
 }
 
 /* Main */
 
 .main_div1 {
-  background-image: url("../imagenes/img-ppal.jpg");
-  background-size: cover;
-  opacity: 0.75;
-  height: 750px;
-  width: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2;
+}
+
+.main_div1-logo {
+  width: 250px;
+  height: auto;
+  justify-self: center;
+  align-self: center;
+}
+
+.main_div1-titulo {
+  justify-self: center;
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: "Indie Flower", cursive;
+  text-shadow: 0px, 2px, 2px, 2px grey;
+  margin: 15px;
+}
+
+.main_div1-subtitulo {
+  justify-self: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: "Indie Flower", cursive;
+  margin: 15px;
 }
 
 .footer{
