@@ -63,3 +63,10 @@ ul li:hover ul {
   height: 750px;
   width: auto;
 }
+
+.footer{
+  grid-template-columns: 0.3fr 0.7fr;
+  color: black;
+  width: auto;
+  opacity: inherit;
+}
