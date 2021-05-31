@@ -14,8 +14,8 @@ a {
 
 /* CORE STYLES */
 :root {
-  --primary-color: rgba(13, 211, 40, 0.75);
-  --overlay-color: rgba(4, 29, 4, 0.9);
+  --primary-color: rgba(13, 211, 40, 1);
+  --overlay-color: rgba(29, 31, 29, 0.9);
   --menu-speed: 0.75s;
 }
 
@@ -169,7 +169,10 @@ a {
   transition: color 0.4s ease;
 }
 
-/* Main */
+/* MAIN */
+
+/* MAIN DIV1 */
+/* Imagen, logo y titulos */
 
 .main_div1 {
   display: grid;
@@ -214,12 +217,34 @@ a {
   height: 25px;
 }
 
-footer{
-  background: rgba(13, 211, 40, 0.75);
-  color: white;
-  height: auto;
-  width: 100vw;
-  font-family: "Indie Flower", cursive;
-  text-shadow: 3px 3px 3px black;
-  padding-top: 20px;
+/* MAIN DIV2 */
+/* Pequeño parrafo sobre nos */
+
+.main_div2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 75px 200px 75px 200px;
+  background-image: url("../imagenes/back-div2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main_div2-p {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.btn-lg {
+  font-family: "Roboto", sans-serif;
+  background-color: transparent;
+}
+
+.footer {
+  grid-template-columns: 0.3fr 0.7fr;
+  color: black;
+  width: auto;
+  opacity: inherit;
 }
