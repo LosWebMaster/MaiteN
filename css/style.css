@@ -214,9 +214,12 @@ a {
   height: 25px;
 }
 
-.footer {
-  grid-template-columns: 0.3fr 0.7fr;
-  color: black;
-  width: auto;
-  opacity: inherit;
+footer{
+  background: rgba(13, 211, 40, 0.75);
+  color: white;
+  height: auto;
+  width: 100vw;
+  font-family: "Indie Flower", cursive;
+  text-shadow: 3px 3px 3px black;
+  padding-top: 20px;
 }
