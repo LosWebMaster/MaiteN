@@ -5,65 +5,24 @@ html {
 body {
   margin: 0;
 }
-/* Main */
 
-.main_div1 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 2;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../imagenes/main-para-logo.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
+a {
+  text-decoration: none;
 }
 
-.main_div1-logo {
-  width: 250px;
-  height: auto;
-  justify-self: center;
-  align-self: center;
-  margin-top: 125px;
-}
-
-.main_div1-titulo {
-  justify-self: center;
-  color: white;/*modificacion*/
-  font-size: 75px;
-  font-weight: bolder;
-  font-family: "Indie Flower", cursive;
-  letter-spacing: 10px;
-  text-shadow: 3px 3px 3px black;
-  margin: 0;
-  height: 100px;
-}
-
-.main_div1-subtitulo {
-  justify-self: center;
-  color: white;
-  font-size: 15px;
-  font-weight: bolder;
-  text-shadow: 3px 3px 3px black;
-  font-family: "Indie Flower", cursive;
-  margin: 0px 0px 200px 0px;
-  height: 25px;
-}
-
-.footer {
-  grid-template-columns: 0.3fr 0.7fr;
-  color: black;
-  width: auto;
-  opacity: inherit;
-}
-
-/*-------*/
+/*HEADER*/
 
 /* CORE STYLES */
 :root {
-  --primary-color: rgba(13, 110, 139, 0.75);
-  --overlay-color: rgba(24, 39, 51 , 0.85);
+  --primary-color: rgba(13, 211, 40, 0.75);
+  --overlay-color: rgba(4, 29, 4, 0.9);
   --menu-speed: 0.75s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* MENU STYLES */
@@ -115,7 +74,7 @@ body {
 /* Hamburger Lines - Top & Bottom */
 .menu-wrap .hamburger > div::before,
 .menu-wrap .hamburger > div::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: 1;
   top: -10px;
@@ -158,7 +117,7 @@ body {
 
 .menu-wrap .toggler:checked ~ .menu > div > div {
   opacity: 1;
-  transition:  opacity 0.4s ease 0.4s;
+  transition: opacity 0.4s ease 0.4s;
 }
 
 .menu-wrap .menu {
@@ -198,10 +157,10 @@ body {
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 35px;
+  font-weight: bolder;
   padding: 1rem;
-  font-family: "indie flower",cursive;
-  
+  font-family: "Indie Flower", cursive;
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
@@ -210,3 +169,54 @@ body {
   transition: color 0.4s ease;
 }
 
+/* Main */
+
+.main_div1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../imagenes/main-para-logo.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main_div1-logo {
+  width: 250px;
+  height: auto;
+  justify-self: center;
+  align-self: center;
+  margin-top: 125px;
+}
+
+.main_div1-titulo {
+  justify-self: center;
+  color: white;/*modificacion*/
+  font-size: 75px;
+  font-weight: bolder;
+  font-family: "Indie Flower", cursive;
+  letter-spacing: 10px;
+  text-shadow: 3px 3px 3px black;
+  margin: 0;
+  height: 100px;
+}
+
+.main_div1-subtitulo {
+  justify-self: center;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  text-shadow: 3px 3px 3px black;
+  font-family: "Indie Flower", cursive;
+  margin: 0px 0px 200px 0px;
+  height: 25px;
+}
+
+.footer {
+  grid-template-columns: 0.3fr 0.7fr;
+  color: black;
+  width: auto;
+  opacity: inherit;
+}
