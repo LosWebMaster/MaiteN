@@ -242,6 +242,12 @@ a {
   background-color: transparent;
 }
 
+/* MAIN DIV3 */
+
+.main_div3-tarjeta !important {
+  justify-content: space-around;
+}
+
 .footer {
   grid-template-columns: 0.3fr 0.7fr;
   color: black;
