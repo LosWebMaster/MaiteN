@@ -183,7 +183,7 @@ a {
   background-position: center;
   background-size: cover;
   height: 100vh;
-  width: 100vw;
+ /* width: 100vw;*/
 }
 
 .main_div1-logo {
@@ -244,8 +244,14 @@ a {
 
 /* MAIN DIV3 */
 
-.main_div3-tarjeta !important {
+.main_div3-tarjeta{
   justify-content: space-around;
+  background-image: url("../imagenes/dark-wood-texture-antique-background-panels-free-photo.jpg");
+  background-size: contain;
+  background-repeat: repeat;  
+  background-position: center;
+  height: 500px;
+  image-resolution:;
 }
 
 .footer {

@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Especialista en nutricion">
-	<meta name="keywords" content="Nutricion, planes, deportistas, dietas, acesoramiento">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Especialista en nutricion">
+    <meta name="keywords" content="Nutricion, planes, deportistas, dietas, acesoramiento">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MaiteN</title>
+    <!--Link de BS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!--Stylo a mano-->
     <link rel="stylesheet" href="css/style.css">
     <!--Stylo para hover-->
@@ -19,15 +23,19 @@
     <!--Fuente Indie Flower-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <!--Link de BS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
+    
+    <!--javascript-tarjeta-->
+    <link rel="stylesheet" href="/css/TarjetasIndex.css">
 </head>
+
 <body>
+
     <!--Menu hamburguesa-->
     <header class="menu-wrap">
         <input type="checkbox" class="toggler">
-        <div class="hamburger"><div></div></div>
+        <div class="hamburger">
+            <div></div>
+        </div>
         <div class="menu">
             <div>
                 <div>
@@ -36,13 +44,13 @@
                         <li><a href="#">Nosotros</a></li>
                         <li><a href="#">Planes</a></li>
                         <li><a href="#">Blog</a>
-                           <!-- 
+                            <!-- 
                                Notas: sub menu para blog 
                                <ul>
                                 <li>Notas</li>
                                 <li>Notas</li>
                              </ul>
-                           --> 
+                           -->
                         </li>
                         <li><a href="#">Contacto</a></li>
                     </ul>
@@ -57,6 +65,7 @@
         <div>
             <!--Primera parte del MAIN-->
             <div class="main_div1">
+
                 <img src="imagenes/logo-circle.png" class="main_div1-logo">
                 <h1 class="main_div1-titulo">MaiteN</h1>
                 <h2 class="main_div1-subtitulo">By Maria Teresa Abraham</h2>
@@ -65,68 +74,79 @@
             <!--Segunda parte con un texto-->
 
             <div class="main_div2">
+
                 <p class="main_div2-p">Arbol maravilloso propio de la flora autóctona de Mendoza que se
-                caracteriza por su valiosa sombra, hermosa y elegante apariencia. 
-                <br><br>
-                Este gusto mío hizo que quisiera tenerlo bien presente y, con su nombre y el
-                mío, nace MaiteN.
+                    caracteriza por su valiosa sombra, hermosa y elegante apariencia.
+                    <br><br>
+                    Este gusto mío hizo que quisiera tenerlo bien presente y, con su nombre y el
+                    mío, nace MaiteN.
                 </p>
-                <a href="index.html" style="justify-self: center;"> <button type="button" class="btn-lg btn-outline-success">Seguir leyendo</button></a>
+                <a href="index.html" style="justify-self: center;"> <button type="button"
+                        class="btn-lg btn-outline-success">Seguir leyendo</button></a>
             </div>
 
             <!--Tercera parte parte del main con tarjetas-->
+            <div class="main_div3-tarjeta">
 
-            <!-- Top to bottom-->
-            <div class="row">
-                <div class="col-sm-4">
-            
-                <!-- normal -->
-                <div class="ih-item circle effect3 top_to_bottom main_div3-tarjeta"><a href="#">
-                    <div class="img"><img src="imagenes/back-2.jpg" alt="img"></div>
-                    <div class="info">
-                        <h3>Heading here</h3>
-                        <p>Description goes here</p>
-                    </div></a></div>
-                <!-- end normal -->
-            
-                </div>
-
-                <div class="col-sm-4">
-            
-                    <!-- normal -->
-                    <div class="ih-item circle effect3 top_to_bottom"><a href="#">
-                        <div class="img"><img src="imagenes/back-3.jpg" alt="img"></div>
-                        <div class="info">
-                            <h3>Heading here</h3>
-                            <p>Description goes here</p>
-                        </div></a></div>
-                    <!-- end normal -->
-                
+                <div class="wrapper">
+                    <div class="cols">
+                        <div class="col" ontouchstart="this.classList.toggle('hover');">
+                            <div class="container">
+                                <div class="front" style="background-image: url(https://unsplash.it/500/500/)">
+                                    <div class="inner">
+                                        <p>Diligord</p>
+                                        <span>Lorem ipsum</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="inner">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat
+                                            velit quae suscipit c.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" ontouchstart="this.classList.toggle('hover');">
+                            <div class="container">
+                                <div class="front" style="url(https://unsplash.it/511/511/)">
+                                    <div class="inner">
+                                        <p>Rocogged</p>
+                                        <span>Lorem ipsum</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="inner">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat
+                                            velit quae suscipit c.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" ontouchstart="this.classList.toggle('hover');">
+                            <div class="container">
+                                <div class="front" style="background-image: url(https://unsplash.it/502/502/)">
+                                    <div class="inner">
+                                        <p>Strizzes</p>
+                                        <span>Lorem ipsum</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="inner">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat
+                                            velit quae suscipit c.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                <div class="col-sm-4">
-            
-                <!-- colored -->
-                <div class="ih-item circle colored effect3 top_to_bottom"><a href="#">
-                    <div class="img"><img src="imagenes/back-4.jpg" alt="img"></div>
-                    <div class="info">
-                        <h3>Heading here</h3>
-                        <p>Description goes here</p>
-                    </div></a></div>
-                <!-- end colored -->
-            
                 </div>
-            </div>
-            <!-- end Top to bottom-->
-
-        </div>
 
     </main>
 
     <footer>
         <div clasz>
             <h1>MainteN - By Maria Teresa Abraham</h1>
-            <h3>Telefonos</h3>        
+            <h3>Telefonos</h3>
         </div>
         <div>
             <a href="">
@@ -140,10 +160,16 @@
             </a>
         </div>
         <div>
-            <h4>Todos los derechos reservados por Los Web Master bien mamados!!  | Política de privacidad | Al utilizar este sitio web, acepta el uso de cookies.</h4>
+            <h4>Todos los derechos reservados por Los Web Master bien mamados!! | Política de privacidad | Al utilizar
+                este sitio web, acepta el uso de cookies.</h4>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
