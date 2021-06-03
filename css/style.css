@@ -254,9 +254,10 @@ a {
   image-resolution:;
 }
 
-.footer {
+footer {
   grid-template-columns: 0.3fr 0.7fr;
-  color: black;
+  background-color: black;
+  color: white;
   width: auto;
   opacity: inherit;
 }
