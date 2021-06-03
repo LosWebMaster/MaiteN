@@ -20,7 +20,7 @@
   align-items: center;
 
   background: rgb(169, 250, 186);
-  font-family: "Indie Flower", cursive;
+  font-family: "Roboto", sans-serif;
 }
 
 /* .flip-card-container */
@@ -30,7 +30,7 @@
   --white-1: hsl(0, 0%, 90%);
   --white-2: hsl(0, 0%, 80%);
   --dark: hsl(var(--hue), 25%, 10%);
-  --grey: hsl(0, 0%, 50%);
+  --grey: rgb(2, 252, 15);
 
   width: 310px;
   height: 400px;
@@ -118,6 +118,7 @@ figcaption {
   padding: 8px 22px;
 
   font-weight: bold;
+  font-size: 25px;
   line-height: 1.6;
   letter-spacing: 2px;
   word-spacing: 6px;
@@ -190,7 +191,8 @@ li {
   margin-top: 12px;
   padding-bottom: 12px;
 
-  font-size: 14px;
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
 
   position: relative;
@@ -218,7 +220,8 @@ li:not(:last-child)::after {
 button {
   font-family: inherit;
   font-weight: bold;
-  color: var(--white-1);
+  font-size: 20px;
+  color: white;
 
   letter-spacing: 2px;
 
@@ -233,7 +236,7 @@ button {
 
 button:hover,
 button:focus {
-  color: var(--primary);
+  color: rgb(2, 252, 15);
   background: hsla(var(--hue), 25%, 10%, 0.2);
   border-color: currentColor;
 }
