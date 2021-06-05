@@ -17,13 +17,14 @@ a {
   text-decoration: none;
 }
 
-html,
-section {
+.main_div1-logo,
+.main_div1-titulo,
+.main_div1-subtitulo {
   animation-name: aparecer;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  animation-duration: 1.5s;
-  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
 }
 
 @keyframes aparecer {

@@ -125,7 +125,7 @@
   background: var(--overlay-color);
   border-radius: 50%;
   width: 200vw;
-  height: 200vw;
+  height: 200vh;
   display: flex;
   flex: none;
   align-items: center;
@@ -135,7 +135,6 @@
 }
 
 .menu-wrap .menu > div > div {
-  text-align: justify;
   max-width: 90vw;
   max-height: 100vh;
   opacity: 0;
@@ -145,12 +144,14 @@
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
   color: #fff;
-  font-size: 35px;
-  font-weight: bolder;
+  font-size: 25px;
+  font-weight: bold;
   padding: 1rem;
   font-family: "Bodoni Moda", serif;
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
+  text-align: center;
+  width: 225px;
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
