@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,400;1,500&family=Josefin+Sans:wght@300&display=swap");
+
 /* CORE STYLES */
 :root {
   --primary-color: rgba(13, 211, 40, 1);
@@ -133,7 +135,7 @@
 }
 
 .menu-wrap .menu > div > div {
-  text-align: center;
+  text-align: justify;
   max-width: 90vw;
   max-height: 100vh;
   opacity: 0;
@@ -146,7 +148,9 @@
   font-size: 35px;
   font-weight: bolder;
   padding: 1rem;
-  font-family: "Indie Flower", cursive;
+  font-family: "Bodoni Moda", serif;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
