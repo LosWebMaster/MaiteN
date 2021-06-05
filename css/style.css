@@ -1,18 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
 html {
   font-size: 62.5%;
 }
 
 body {
   margin: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("../imagenes/body-5.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 a {
   text-decoration: none;
 }
 
+html,
+section {
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1.5s;
+  animation-delay: 0s;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0%;
+  }
+  25% {
+    opacity: 25%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  75% {
+    opacity: 75%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
 /* MAIN */
 
 /* MAIN DIV1 */
+
 /* Imagen, logo y titulos */
 
 .main_div1 {
@@ -20,7 +55,7 @@ a {
   grid-template-columns: 1fr;
   grid-template-rows: 2;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../imagenes/main-para-logo.jpg");
+    url("../imagenes/main-div-1.jpg");
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -32,16 +67,18 @@ a {
   justify-self: center;
   align-self: center;
   margin-top: 125px;
+  border-radius: 200px;
+  background-color: yellowgreen;
 }
 
 .main_div1-titulo {
   justify-self: center;
-  color: white;/*modificacion*/
+  color: white; /*modificacion*/
   font-size: 75px;
   font-weight: bolder;
-  font-family: "Indie Flower", cursive;
+  font-family: "Caveat", cursive;
   letter-spacing: 10px;
-  text-shadow: 3px 3px 3px black;
+  text-shadow: 2px 2px 2px grey;
   margin: 0;
   height: 100px;
 }
@@ -49,10 +86,10 @@ a {
 .main_div1-subtitulo {
   justify-self: center;
   color: white;
-  font-size: 15px;
+  font-size: 25px;
   font-weight: bolder;
   text-shadow: 3px 3px 3px black;
-  font-family: "Indie Flower", cursive;
+  font-family: "Caveat", cursive;
   margin: 0px 0px 200px 0px;
   height: 25px;
 }
@@ -64,24 +101,26 @@ a {
   display: grid;
   grid-template-columns: 1fr;
   padding: 75px 200px 75px 200px;
-  background-image: url("../imagenes/back-div2.png");
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .main_div2-p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Quicksand", sans-serif;
   text-align: center;
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 25px;
+  color: white;
+  text-shadow: silver 1px 1px 1px;
 }
 
 .btn-lg {
-  font-family: "Roboto", sans-serif;
+  font-family: "Quicksand", sans-serif;
   background-color: transparent;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bolder;
+  text-shadow: forestgreen 2px 2px 2px;
 }
-
 
 footer {
   grid-template-columns: 0.3fr 0.7fr;
