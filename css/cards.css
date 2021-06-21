@@ -30,7 +30,7 @@
   --white-1: hsl(0, 0%, 90%);
   --white-2: hsl(0, 0%, 80%);
   --dark: hsl(var(--hue), 25%, 10%);
-  --grey: rgb(2, 252, 15);
+  --grey: rgb(66, 66, 66);
 
   width: 270px;
   height: 400px;
@@ -236,7 +236,7 @@ button {
 
 button:hover,
 button:focus {
-  color: rgb(2, 252, 15);
+  color: rgb(255, 255, 255);
   background: hsla(var(--hue), 25%, 10%, 0.2);
   border-color: currentColor;
 }
@@ -264,10 +264,9 @@ button:active {
 /* .design */
 .design {
   display: block;
-
-  background: var(--grey);
+  /* Lineas en el back de la tarjeta
+  background: var(--red); */
   position: absolute;
-
   opacity: var(--op);
   transition: 0.3s;
 }
