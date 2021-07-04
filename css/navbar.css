@@ -2,8 +2,8 @@
 
 /* CORE STYLES */
 :root {
-  --primary-color: rgb(238, 136, 247);
-  --overlay-color: rgba(35, 15, 37, 0.9);
+  --primary-color: rgb(5, 170, 14);
+  --overlay-color: rgba(10, 49, 2, 0.9);
   --menu-speed: 0.75s;
 }
 
