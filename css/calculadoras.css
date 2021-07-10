@@ -17,11 +17,6 @@
   font-family: "Caveat", cursive;
 }
 
-@charset "UTF-8";
-* {
-  box-sizing: border-box;
-}
-
 body {
   background: #eceef1;
   font-family: "Slabo 27px", serif;

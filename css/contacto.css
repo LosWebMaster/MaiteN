@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+main div h1 {
+  font-size: 55px;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../imagenes/nutritionist-website.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header_seccion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: silver 1px 1px 1px;
+  height: 250px;
+  font-family: "Caveat", cursive;
+}
+
+.gridContacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.formulario {
+  display: grid;
+  margin: 40px 15px 40px 15px;
+  font-size: 1.5rem;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+}
+.contactos {
+  display: grid;
+  margin: 40px 15px 40px 5px;
+}
+fieldset {
+  border: dotted 2px;
+  color: #19881f;
+  padding: 35px;
+}
+legend {
+  text-align: center;
+}
