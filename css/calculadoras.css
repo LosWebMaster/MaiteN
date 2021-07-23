@@ -5,6 +5,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
+  color: white;
+  font-size: 55px;
+  letter-spacing: 5px;
+  text-shadow: silver 1px 1px 1px;
+  height: 250px;
+=======
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../imagenes/opciones/tarjeta_calculadora.jpg");
   background-position: center;
@@ -14,13 +21,24 @@
   letter-spacing: 10px;
   text-shadow: silver 1px 1px 1px;
   height: 350px;
+>>>>>>> 1b85884b7ec1bbccc6ad281846a69d102176c2f9
   font-family: "Caveat", cursive;
 }
 
 body {
+<<<<<<< HEAD
+  background: #ffffff;
+  font-family: "Slabo 27px", serif;
+  color: #333a45;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("../imagenes/opciones/tarjeta_calculadora.jpg");
+  background-position: center;
+  background-size: cover;
+=======
   background: #eceef1;
   font-family: "Slabo 27px", serif;
   color: #333a45;
+>>>>>>> 1b85884b7ec1bbccc6ad281846a69d102176c2f9
 }
 
 .wrapper {
@@ -165,6 +183,50 @@ body {
   transform: scale(1);
 }
 
+<<<<<<< HEAD
+.card-collaped{
+  height: 50%;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+#accordionFlushExample{
+margin-left: 150px;
+margin-right: 200px;
+}
+.contenedor-fondo{
+
+  margin: 0px 15px 0px 15px;
+  margin-bottom: 50px;
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+.texto-1{
+  font-size: 30px;
+  color: #000000;
+  font-family: "Quicksand", sans-serif;
+  margin: 0px 25px 10px 25px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  text-align: center;
+  margin-right: 185px;
+  margin-left: 185px;
+  
+}
+
+.accordion-button {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+}
+
+=======
+>>>>>>> 1b85884b7ec1bbccc6ad281846a69d102176c2f9
 @media screen and (min-width: 992px) {
   .card:nth-of-type(3n + 2) .card__expander {
     margin-left: calc(-100% - 30px);
