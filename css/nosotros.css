@@ -6,7 +6,11 @@ html {
 }
 
 body {
-  background-color: rgb(223, 253, 222);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../imagenes/opciones/header_23.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 main div h1 {
@@ -15,16 +19,16 @@ main div h1 {
 
 .main_div-2 {
   margin: 0px 15px 0px 15px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 25px;
 }
 
 .header_seccion {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../imagenes/opciones/header_23.jpg");
-  background-position: center;
-  background-size: cover;
+
   color: white;
   text-shadow: silver 1px 1px 1px;
   height: 350px;
@@ -314,8 +318,8 @@ body a {
 }
 .thumb {
   display: inline;
-  width: 250px;
-  height: 350px;
+  width: 250;
+  height: 200px;
   margin: 20px;
 }
 

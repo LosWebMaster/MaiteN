@@ -41,13 +41,13 @@ body {
   padding: 20px;
   background-color: white;
   border-radius: 15px;
-  width: 85%;
+  width: 90%;
   justify-self: center;
 }
 fieldset {
   border: dotted 2px;
   color: #19881f;
-  padding: 35px;
+  padding: 25px;
 }
 legend {
   text-align: center;
@@ -55,7 +55,7 @@ legend {
 .contactos {
   display: grid;
   margin: 40px 0px 40px 0px;
-  width: 65%;
+  width: 70%;
   justify-self: center;
   background-color: white;
   border-radius: 15px;
