@@ -27,6 +27,11 @@ body {
   font-family: "Caveat", cursive;
 }
 
+<<<<<<< HEAD
+=======
+/* Formulario y contactos */
+
+>>>>>>> 1b85884b7ec1bbccc6ad281846a69d102176c2f9
 .gridContacto {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -34,21 +39,136 @@ body {
 }
 .formulario {
   display: grid;
+<<<<<<< HEAD
   margin: 40px 15px 40px 15px;
+=======
+  margin: 40px 0px 40px 0px;
+>>>>>>> 1b85884b7ec1bbccc6ad281846a69d102176c2f9
   font-size: 1.5rem;
   padding: 20px;
   background-color: white;
   border-radius: 15px;
+<<<<<<< HEAD
 }
 .contactos {
   display: grid;
   margin: 40px 15px 40px 5px;
+=======
+  width: 90%;
+  justify-self: center;
+>>>>>>> 1b85884b7ec1bbccc6ad281846a69d102176c2f9
 }
 fieldset {
   border: dotted 2px;
   color: #19881f;
+<<<<<<< HEAD
   padding: 35px;
+=======
+  padding: 25px;
+>>>>>>> 1b85884b7ec1bbccc6ad281846a69d102176c2f9
 }
 legend {
   text-align: center;
 }
+<<<<<<< HEAD
+=======
+.contactos {
+  display: grid;
+  margin: 40px 0px 40px 0px;
+  width: 70%;
+  justify-self: center;
+  background-color: white;
+  border-radius: 15px;
+}
+.contenedorContactos {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding: 20px 5px 20px 5px;
+  align-items: center;
+  justify-items: center;
+}
+
+/* Style de los iconos de contactos */
+
+.fa-map-marker-alt {
+  color: #19881f;
+  font-size: 20px;
+}
+.fa-mobile-alt {
+  color: #19881f;
+  font-size: 20px;
+}
+.fa-envelope {
+  color: #19881f;
+  font-size: 20px;
+}
+
+/* Textp de contactos */
+
+.Texto {
+  display: inline-block;
+  color: black;
+  font-size: 20px;
+  padding-left: 5px;
+}
+span p {
+  color: black;
+  font-size: 20px;
+}
+
+/*Redes Sociales*/
+
+.RedesSociales {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 15px;
+}
+
+.Whatsapp {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  background-color: #25d366;
+}
+.Instagram {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+.Facebook {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 40px;
+  color: #4267b2;
+  font-size: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  background-color: #fff;
+}
+>>>>>>> 1b85884b7ec1bbccc6ad281846a69d102176c2f9
