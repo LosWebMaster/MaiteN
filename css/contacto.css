@@ -27,11 +27,8 @@ body {
   font-family: "Caveat", cursive;
 }
 
-<<<<<<< HEAD
-=======
 /* Formulario y contactos */
 
->>>>>>> 1b85884b7ec1bbccc6ad281846a69d102176c2f9
 .gridContacto {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -39,39 +36,22 @@ body {
 }
 .formulario {
   display: grid;
-<<<<<<< HEAD
-  margin: 40px 15px 40px 15px;
-=======
   margin: 40px 0px 40px 0px;
->>>>>>> 1b85884b7ec1bbccc6ad281846a69d102176c2f9
   font-size: 1.5rem;
   padding: 20px;
   background-color: white;
   border-radius: 15px;
-<<<<<<< HEAD
-}
-.contactos {
-  display: grid;
-  margin: 40px 15px 40px 5px;
-=======
   width: 90%;
   justify-self: center;
->>>>>>> 1b85884b7ec1bbccc6ad281846a69d102176c2f9
 }
 fieldset {
   border: dotted 2px;
   color: #19881f;
-<<<<<<< HEAD
-  padding: 35px;
-=======
   padding: 25px;
->>>>>>> 1b85884b7ec1bbccc6ad281846a69d102176c2f9
 }
 legend {
   text-align: center;
 }
-<<<<<<< HEAD
-=======
 .contactos {
   display: grid;
   margin: 40px 0px 40px 0px;
@@ -171,4 +151,3 @@ span p {
   vertical-align: middle;
   background-color: #fff;
 }
->>>>>>> 1b85884b7ec1bbccc6ad281846a69d102176c2f9

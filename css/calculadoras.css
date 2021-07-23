@@ -5,28 +5,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
   color: white;
   font-size: 55px;
   letter-spacing: 5px;
   text-shadow: silver 1px 1px 1px;
   height: 250px;
-=======
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../imagenes/opciones/tarjeta_calculadora.jpg");
-  background-position: center;
-  background-size: cover;
-  color: white;
-  font-size: 55px;
-  letter-spacing: 10px;
-  text-shadow: silver 1px 1px 1px;
-  height: 350px;
->>>>>>> 1b85884b7ec1bbccc6ad281846a69d102176c2f9
   font-family: "Caveat", cursive;
 }
 
 body {
-<<<<<<< HEAD
   background: #ffffff;
   font-family: "Slabo 27px", serif;
   color: #333a45;
@@ -34,11 +21,6 @@ body {
   url("../imagenes/opciones/tarjeta_calculadora.jpg");
   background-position: center;
   background-size: cover;
-=======
-  background: #eceef1;
-  font-family: "Slabo 27px", serif;
-  color: #333a45;
->>>>>>> 1b85884b7ec1bbccc6ad281846a69d102176c2f9
 }
 
 .wrapper {
@@ -183,7 +165,6 @@ body {
   transform: scale(1);
 }
 
-<<<<<<< HEAD
 .card-collaped{
   height: 50%;
   margin-left: 100px;
@@ -225,8 +206,6 @@ margin-right: 200px;
   font-weight: bolder;
 }
 
-=======
->>>>>>> 1b85884b7ec1bbccc6ad281846a69d102176c2f9
 @media screen and (min-width: 992px) {
   .card:nth-of-type(3n + 2) .card__expander {
     margin-left: calc(-100% - 30px);
