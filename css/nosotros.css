@@ -45,7 +45,8 @@ main div h1 {
   font-weight: bolder;
 }
 
-p {
+/*texto*/
+.texto-1{
   font-size: 20px;
   font-family: "Quicksand", sans-serif;
   margin: 0px 25px 10px 25px;

@@ -5,6 +5,11 @@
   color: #f0f9ff;
   background-color: rgba(10, 49, 2, 0.9);
   font-family: "Quicksand", sans-serif;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height:inherit
+ 
 }
 
 .footer-dark ul {
@@ -78,4 +83,5 @@
   opacity: 0.3;
   font-size: 13px;
   margin-bottom: 0;
+  
 }
