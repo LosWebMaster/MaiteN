@@ -18,9 +18,10 @@
 }
 
 body {
-  background: #eceef1;
+  background: #ffffff;
   font-family: "Slabo 27px", serif;
   color: #333a45;
+  
 }
 
 .wrapper {
@@ -169,7 +170,15 @@ body {
   height: 50%;
   margin-left: 100px;
   margin-right: 100px;
+
 }
+
+#accordionFlushExample{
+margin-left: 150px;
+margin-right: 200px;
+
+}
+
 
 
 .texto-1{
