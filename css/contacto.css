@@ -48,6 +48,7 @@ fieldset {
   border: dotted 2px;
   color: #19881f;
   padding: 25px;
+  font-family: "Quicksand", sans-serif;
 }
 legend {
   text-align: center;
@@ -67,6 +68,7 @@ legend {
   padding: 20px 5px 20px 5px;
   align-items: center;
   justify-items: center;
+  font-family: "Quicksand", sans-serif;
 }
 
 /* Style de los iconos de contactos */

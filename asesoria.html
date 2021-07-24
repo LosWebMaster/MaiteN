@@ -14,10 +14,10 @@
     <link rel="icon" href="imagenes/Logo-png.png" type="image/png">
     <!--Style de Navbar-->
     <link rel="stylesheet" href="css/navbar.css">
-    <!-- Style Footer -->
-    <link rel="stylesheet" href="css/footer.css">
     <!--Style a mano-->
     <link rel="stylesheet" href="css/asesoria.css">
+    <!-- Style Footer -->
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
@@ -48,68 +48,184 @@
     <!--CUERPO DE LA WEB-->
 
     <main>
-        <section class="section-plans" id="section-plans">
-            <div class="header_seccion">
-                <h1>ASESORIA</h1>
-            </div>
+        <div class="header_seccion">
+            <h1>ASESORIA</h1>
+        </div>
         
+        <section>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <!--Semanal-->
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Semanal</b></h5>
+                            <ul>
+                                <li>1 video llamada con el profesional</li><br>
+                                <li>Planes de alimentación personalizados a cada necesidad</li><br>
+                                <li>Menús personalizados</li><br>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">
+                                <p>Solo</p>
+                                <p>$7999</p>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <!--Mensual-->
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Mensual</b></h5>
+                            <ul>
+                                <li>2 video llamada con el profesional al mes</li><br>
+                                <li>Planes de alimentación personalizados a cada necesidad</li><br>
+                                <li>Menús personalizados</li><br>
+                                <li>Seguimiento personalizado</li><br>
+                                <li>Gráficos de seguimiento de peso y otros datos de salud</li><br>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">
+                                <p>Solo</p>
+                                <p>$5999/m</p>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <!--Trimestral-->
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Trimestral</b></h5>
+                            <ul>
+                                <li>4 video llamadas con el profesional por mes</li><br>
+                                <li>Planes de alimentación personalizados a cada necesidad</li><br>
+                                <li>Menús personalizados</li><br>
+                                <li>Recetas específicas para cada necesidad</li><br>
+                                <li>Seguimiento personalizado</li><br>
+                                <li>Gráficos de seguimiento de peso y otros datos de salud</li><br>
+                                <li>Material educativo de nutrición y salud</li><br>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">
+                                <p>Solo</p>
+                                <p>$4999/M</p>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--<div class="container-fluid tarjetas">
             <div class="row">
+                <div class="col-3">
+                    <h5 class="card-title">Semanal</h5>
+                    <ul>
+                        <li>1 video llamada con el profesional</li>
+                        <li>Planes de alimentación personalizados a cada necesidad</li>
+                        <li>Menús personalizados</li>
+                    </ul>
+                    <div>
+                        <p>Solo</p>
+                        <p>$7999</p>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <h5 class="card-title">Mensual</h5>
+                    <ul>
+                        <li>2 video llamada con el profesional al mes</li>
+                        <li>Planes de alimentación personalizados a cada necesidad</li>
+                        <li>Menús personalizados</li>
+                        <li>Seguimiento personalizado</li>
+                        <li>Gráficos de seguimiento de peso y otros datos de salud</li>
+                    </ul>
+                    <div>
+                        <p>Solo</p>
+                        <p>$5999/m</p>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <h5 class="card-title">Trimestral</h5>
+                    <ul>
+                        <li>4 video llamadas con el profesional por mes</li>
+                        <li>Planes de alimentación personalizados a cada necesidad</li>
+                        <li>Menús personalizados</li>
+                        <li>Recetas específicas para cada necesidad</li>
+                        <li>Seguimiento personalizado</li>
+                        <li>Gráficos de seguimiento de peso y otros datos de salud</li>
+                        <li>Material educativo de nutrición y salud</li>
+                    </ul>
+                    <div>
+                        <p>Solo</p>
+                        <p>$4999/M</p>
+                    </div>
+                </div>
+            </div>
+        </div>--!
+            
+            <!--<div class="row">
                 <div class="col-1-of-3">
                 <div class="card">
                     <div class="card__side card__side--front-1">
-                    <div class="card__title card__title--1">
-                        <i class="fas fa-paper-plane"></i>
-                        <h4 class="card__heading">Semanal</h4>
-                    </div>
-        
-                    <div class="card__details">
-                        <ul>
-                            <li>1 video llamada con el profesional</li>
-                            <li>Planes de alimentación personalizados a cada necesidad</li>
-                            <li>Menús personalizados</li>
-                        </ul>
-                    </div>
+                        <div class="card__title card__title--1">
+                            <i class="fas fa-paper-plane"></i>
+                            <h4 class="card__heading">Semanal</h4>
+                        </div>
+
+                        <div class="card__details">
+                            <ul>
+                                <li>1 video llamada con el profesional</li>
+                                <li>Planes de alimentación personalizados a cada necesidad</li>
+                                <li>Menús personalizados</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="card__side card__side--back card__side--back-1">
-                    <div class="card__cta">
-                        <div class="card__price-box">
-                        <p class="card__price-only">Solo</p>
-                        <p class="card__price-value">$7999</p>
+                        <div class="card__cta">
+                            <div class="card__price-box">
+                                <p class="card__price-only">Solo</p>
+                                <p class="card__price-value">$7999</p>
+                            </div>
+                            <a href="#popup" class="btn btn--white">Seleccionar</a>
                         </div>
-                        <a href="#popup" class="btn btn--white">Seleccionar</a>
-                    </div>
                     </div>
                 </div>
                 </div>
         
                 <div class="col-1-of-3">
-                <div class="card">
-                    <div class="card__side card__side--front-2">
-                    <div class="card__title card__title--2">
-                        <i class="fas fa-plane"></i>
-                        <h4 class="card__heading">Mensual</h4>
-                    </div>
-        
-                    <div class="card__details">
-                        <ul>
-                            <li>2 video llamada con el profesional al mes</li>
-                            <li>Planes de alimentación personalizados a cada necesidad</li>
-                            <li>Menús personalizados</li>
-                            <li>Seguimiento personalizado</li>
-                            <li>Gráficos de seguimiento de peso y otros datos de salud</li>
-                        </ul>
-                    </div>
-                    </div>
-                    <div class="card__side card__side--back card__side--back-2">
-                    <div class="card__cta">
-                        <div class="card__price-box">
-                        <p class="card__price-only">Solo</p>
-                        <p class="card__price-value">$5999/m</p>
+                    <div class="card">
+                        <div class="card__side card__side--front-2">
+                            <div class="card__title card__title--2">
+                                <i class="fas fa-plane"></i>
+                                <h4 class="card__heading">Mensual</h4>
+                            </div>
+                
+                            <div class="card__details">
+                                <ul>
+                                    <li>2 video llamada con el profesional al mes</li>
+                                    <li>Planes de alimentación personalizados a cada necesidad</li>
+                                    <li>Menús personalizados</li>
+                                    <li>Seguimiento personalizado</li>
+                                    <li>Gráficos de seguimiento de peso y otros datos de salud</li>
+                                </ul>
+                            </div>
                         </div>
-                        <a href="#popup" class="btn btn--white">Seleccionar</a>
+                        <div class="card__side card__side--back card__side--back-2">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-only">Solo</p>
+                                    <p class="card__price-value">$5999/m</p>
+                                </div>
+                                <a href="#popup" class="btn btn--white">Seleccionar</a>
+                            </div>
+                        </div>
                     </div>
-                    </div>
-                </div>
                 </div>
         
                 <div class="col-1-of-3">
@@ -143,8 +259,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </div>-->
     </main>
 
     <!-- FOOTER -->
@@ -157,22 +272,22 @@
                         <ul>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="#">Blog</a></li>
-                            <li><a href="#">Asesoría</a></li>
+                            <li><a href="asesoria.html">Asesoria</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-3 item">
                         <ul>
                             <li><a href="nosotros.html">Nosotros</a></li>
                             <li><a href="calculadoras.html">Calculadoras</a></li>
-                            <li><a href="#">Guia de restaurantes</a></li>
+                            <li><a href="#">Guia restaurantes</a></li>
                             <li><a href="contacto.html">Contacto</a></li>
                         </ul>
                     </div>
                     <div class="col-md-6 item text">
                         <h3>Maria Teresa Abraham</h3>
                         <br>
-                        <p>Arbol maravilloso propio de la flora autóctona de Mendoza que se caracteriza por su valiosa sombra, hermosa y elegante apariencia.
-                        <br> Este gusto mío hizo que quisiera tenerlo bien presente y, con su nombre y el mío, nace MaiteN.</p>
+                        <div>Arbol maravilloso propio de la flora autóctona de Mendoza que se caracteriza por su valiosa sombra, hermosa y elegante apariencia.
+                        <br> Este gusto mío hizo que quisiera tenerlo bien presente y, con su nombre y el mío, nace MaiteN.</div>
                     </div>
                     <div class="col"></div>
                     <div class="col item social">
@@ -187,7 +302,7 @@
                             </a>
                     </div>
                 </div>
-                <p class="copyright">Los Web Masters © 2021</p>
+                <p class="copyright">Los Web Maters © 2021</p>
             </div>
         </footer>
     </div>
