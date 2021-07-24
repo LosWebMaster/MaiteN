@@ -213,6 +213,7 @@ body {
 .card__side--back {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
+
 }
 
 .card__side--back-1 {
@@ -256,11 +257,9 @@ body {
   -ms-flex-align: center;
   align-items: center;
 }
-
 .card__title--1 .fas {
   font-size: 5rem;
 }
-
 .card__title--2 .fas {
   font-size: 5rem;
 }
@@ -277,7 +276,6 @@ body {
   color: #fff;
   width: 75%;
 }
-
 .card__heading-span {
   padding: 1rem 1.5rem;
   -webkit-box-decoration-break: clone;
@@ -313,7 +311,6 @@ body {
   width: 90%;
   text-align: center;
 }
-
 .card__price-box {
   text-align: center;
   color: #fff;
@@ -334,7 +331,6 @@ body {
   max-width: 114rem;
   margin: 0 auto;
 }
-
 .row:not(:last-child) {
   margin-bottom: 5rem;
   margin-top: 5rem;
@@ -351,9 +347,8 @@ body {
 }
 
 .row [class^="col-"]:not(:last-child) {
-  margin-right: 6rem;
+  margin-right: 5rem;
 }
-
 .row .col-1-of-3 {
   width: calc((100% - 2 * 6rem) / 3);
 }
