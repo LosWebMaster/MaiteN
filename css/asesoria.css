@@ -23,20 +23,35 @@ main div h1 {
   font-family: "Caveat", cursive;
 }
 
-.tarjetas {
-  background-color: white;
-  margin: 0px 15px 35px 15px;
-}
-
 .row {
   text-align: center;
+  width: 100%;
+  padding-left: 25px;
+  padding-bottom: 15px;
 }
 
 ul {
   text-decoration: none;
   list-style: none;
+  padding-left: 15px;
+}
+
+.card-title {
+  font-size: 30px;
+  font-weight: 1000;
 }
 
 .card-body {
   font-family: "Quicksand", sans-serif;
+  color: black;
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-footer {
+  font-size: 30px;
+  font-weight: bold;
 }
