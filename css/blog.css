@@ -12,9 +12,9 @@
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../imagenes/nutritionist-website.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .contenedor-fondo {
@@ -28,17 +28,16 @@ body {
 }
 
 hr {
-    margin: 1rem 0;
-    color: #ff6207;
-    background-color: currentColor;
-    border: 0;
-    opacity: inherit;
+  margin: 1rem 0;
+  color: #ff6207;
+  background-color: currentColor;
+  border: 0;
+  opacity: inherit;
 }
 
 .bg-light {
   background-color: rgb(250, 239, 90) !important;
 }
-
 
 h1,
 h2,
