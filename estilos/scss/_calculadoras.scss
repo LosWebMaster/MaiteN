@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 
 .header_seccion {
@@ -6,16 +6,16 @@
   justify-content: center;
   align-items: center;
   color: white;
+  font-size: 55px;
+  letter-spacing: 5px;
   text-shadow: silver 1px 1px 1px;
   height: 250px;
-  font-family: "Bebas Neue", cursive;
-  font-size: 90px;
-  letter-spacing: 10px;
+  font-family: "Caveat", cursive;
 }
 
-body {
+.body-calculadoras {
   background: #ffffff;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Slabo 27px", serif;
   color: #333a45;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../imagenes/opciones/tarjeta_calculadora.jpg");
@@ -45,7 +45,7 @@ body {
   margin: 0;
   font-size: 1.5em;
   color: #949fb0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Yesteryear", cursive;
   font-weight: 500;
   line-height: 1.1;
 }

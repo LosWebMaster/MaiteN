@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 
-body {
+.body-asesoria {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../imagenes/IMG_6958.jpg");
+    url("../imagenes/asesoria.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -20,23 +20,7 @@ main div h1 {
   color: white;
   text-shadow: silver 1px 1px 1px;
   height: 250px;
-}
-
-.letra-header {
-  font-family: "Bebas Neue", cursive;
-  font-size: 90px;
-  letter-spacing: 10px;
-}
-
-.Asesoria-bienvenida {
-  color: white;
-  text-align: center;
-  font-family: "Quicksand", sans-serif;
-  font-weight: bolder;
-  margin: 0px 30px 20px 30px;
-  padding: 20px 0px 20px 0px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 15px;
+  font-family: "Caveat", cursive;
 }
 
 .row {
@@ -54,14 +38,14 @@ ul {
 
 .card-title {
   font-size: 30px;
-  font-weight: bolder;
-  color: white;
+  font-weight: 1000;
 }
 
 .card-body {
   font-family: "Quicksand", sans-serif;
   color: black;
-  background-color: rgba(41, 80, 36, 0.5);
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
 
   font-size: 20px;
   font-weight: bold;

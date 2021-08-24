@@ -1,24 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
-
 .header_seccion {
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  font-size: 1000px;
+  letter-spacing: 5px;
   text-shadow: silver 1px 1px 1px;
   height: 300px;
-  font-family: "Bebas Neue", cursive;
-  font-size: 90px;
-  letter-spacing: 10px;
+  font-family: "Caveat", cursive;
 }
-body {
+
+.body-blog {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../imagenes/nutritionist-website.jpeg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Quicksand", sans-serif;
 }
 
 .contenedor-fondo {
@@ -48,7 +45,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Caveat", cursive,
+    serif /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
 }
 
 .table {
@@ -120,9 +118,8 @@ h6 {
   border-radius: 2rem;
 }
 
-/*
-   * Blog posts
-   */
+/* Blog posts */
+
 .blog-post {
   margin-bottom: 4rem;
 }
