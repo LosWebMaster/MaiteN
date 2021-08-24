@@ -8,10 +8,14 @@
   color: white;
   text-shadow: silver 1px 1px 1px;
   height: 300px;
+}
+
+main div h1 {
   font-family: "Bebas Neue", cursive;
-  font-size: 90px;
+  font-size: 70px;
   letter-spacing: 10px;
 }
+
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../imagenes/nutritionist-website.jpeg");
