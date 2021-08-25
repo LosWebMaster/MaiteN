@@ -11,7 +11,7 @@
   padding: 0;
   list-style: none;
   line-height: 1.6;
-  font-size: 14px;
+  font-size: 25px;
   margin-bottom: 0;
 }
 
@@ -78,4 +78,38 @@
   opacity: 0.3;
   font-size: 13px;
   margin-bottom: 0;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .footer-dark .copyright {
+    font-size: 25px;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .footer-dark {
+    padding: 0px;
+  }
+  .item {
+    justify-self: center;
+    margin-bottom: 20px;
+  }
+  footer div ul li {
+    font-size: 30px;
+  }
+  .text {
+    display: none;
+  }
+  .social {
+    letter-spacing: 25px;
+    height: 75px;
+    padding-top: 15px;
+  }
+
+  footer div a img {
+    height: 50px;
+    width: 50px;
+  }
 }
