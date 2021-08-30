@@ -25,6 +25,14 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
+.contenedor-img{
+
+  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+   /*Corregir alineacion del texto en cuanto a la imagen*/
+
+}
 .contenedor-fondo {
   margin-bottom: 25px;
   background-color: white;
