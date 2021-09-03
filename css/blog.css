@@ -48,6 +48,7 @@ hr {
   background-color: currentColor;
   border: 0;
   opacity: inherit;
+  
 }
 
 .bg-light {
@@ -61,30 +62,29 @@ h4,
 h5,
 h6 {
   font-family: "Bebas Neue", cursive;
-}
+  }
 
 .table {
   border: 1px;
+  
 }
 .title-table {
   text-align: center;
+  font-size: 30px;
 }
 
 .text-cells {
   text-align: justify;
+  width: 50%;
 }
 .display-4 {
   font-size: 2.5rem;
 }
+
 @media (min-width: 768px) {
   .display-4 {
     font-size: 3rem;
   }
-}
-.img-fluid{
-  width: 200px;
-  height: 150px;
-  position: relative;
 }
 
 .nav-scroller {
@@ -148,5 +148,17 @@ h6 {
   font-size: 2.5rem;
 }
 .bg-dark {
-  background-color: #48c74c !important;
+ 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../imagenes/carrousel-2.jpg");
+  background-position: auto;
+  background-size: cover;
+  background-attachment: fixed
+
 }
+h1{
+  text-shadow: black 10px 10px 10px;
+  text-align: center;
+}
+
+
+
