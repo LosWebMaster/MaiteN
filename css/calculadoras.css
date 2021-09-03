@@ -235,3 +235,20 @@ body {
     width: calc(200% + 30px);
   }
 }
+
+@media only screen and (max-device-width: 768px) {
+  main div h1 {
+    font-size: 30px;
+    letter-spacing: 5px;
+  }
+
+  .header_seccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: silver 1px 1px 1px;
+    height: 350px;
+    font-family: "Bebas Neue", cursive;
+  }
+}
